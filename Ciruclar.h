@@ -32,7 +32,6 @@ void insertarC(listaC **q, int x)
 		t->prox = aux;
 		aux->prox = (*q);
 	}
-
 }
 
 void eliminarC(listaC **q, int x) 
